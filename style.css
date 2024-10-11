@@ -1,0 +1,107 @@
+body {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.btn {
+    height: 80px;
+    width: 80px;
+    border-radius: 20%;
+    margin: 2rem;
+    padding: 1em;
+    font-weight: bold;
+    font-size: 2rem;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 3px 5px 12px ghostwhite;
+}
+
+.red, .green{
+    margin-bottom: 3rem !important;
+
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+.red {
+    background-color: red;
+    border: 12px solid darkred;
+}
+
+.green {
+    background-color: green;
+    border: 12px solid darkgreen;
+}
+
+.blue {
+    background-color: blue;
+    border: 12px solid darkblue;
+}
+
+.yellow {
+    background-color: yellow;
+    border: 12px solid darkorange;
+}
+
+.flash{
+    background-color: rgb(0, 0, 0);
+    box-shadow: 2px 2px 10px red !important;
+}
+.userFlash{
+    background-color: white;
+    box-shadow: none !important;
+}
+
+.start{
+    height: 36px;
+    width: 96px;
+    background-color: purple;
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 251, 251);
+    border-radius: 10px;
+    font-size: 1rem;
+    box-shadow: 0px 0px 20px rgb(170, 170, 170);
+    margin-top: 1rem;
+}
+.start:hover{
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
+}
+
+.level{
+    height: 35px;
+    font-size: 1.15rem;
+}
+
+.highscore{
+    font-size: 1.8rem;
+    color: lightseagreen;
+    height: 2rem;
+    line-height: 20px;
+}
+.SGname{
+    text-decoration: underline;
+    line-height: 20px;
+    font-size: 2rem;
+    color:darksalmon
+}
+
+audio {
+    display: none;
+}
+
+@media (max-width: 524px) {
+    .btn{
+        height: 5rem;
+        width: 5rem;
+        border-radius: 20%;
+        border: 10px solid rgba(33, 33, 33, 0.564);
+        margin: 1.4rem;
+        padding: .5em;
+    }
+}
