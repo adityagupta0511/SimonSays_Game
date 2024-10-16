@@ -8,6 +8,7 @@ let level = 0;
 
 let h2 = document.querySelector('h2');
 
+
 //sound effect ~~~~~~~~~~~~
 let endSound = document.querySelector(".endSound");
 let gameOverSound = function () {
@@ -21,6 +22,7 @@ let sbtnSound = document.querySelector(".sbtnSound")
 let startbtnSound = function () {
     sbtnSound.play();
 }
+
 
 //start game--------
 let startbtn = document.querySelector(".start"); 
@@ -41,6 +43,7 @@ startbtn.addEventListener("click",function(){
         reset()
     }
 });
+
 
 // Flash buttons & level up +++++++++++
 function gameFlash(btn){
@@ -107,6 +110,7 @@ function checkAns(idx) {
     }
 }
 
+
 //button event listeners ..........
 function btnPress() {
     // console.log("btn was pressed"); 
@@ -135,4 +139,5 @@ function reset() {
     startbtn.innerText = "START";
 
     // highScore.innerText ="";  
+    
 }
